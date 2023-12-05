@@ -9,3 +9,5 @@ alter table orders_info_20231201 add COLUMN id int,
 insert into orders_info_20231201 (id,account,strategy_id,job_id,task_id,order_id,remote_order_id,symbol,direction.price.volume,state) select () from  orders_info_20231201_bak;
 
 ```
+
+![image](https://github.com/XLF2014/-/assets/35831629/3c0d48e9-f627-4fd7-a059-77da260e4ca2)
